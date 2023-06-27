@@ -1,0 +1,372 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity=
+  "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.cs">-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+ <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <!-- Link Bootstrap JS and JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>-->
+
+
+    <link rel="stylesheet" href="css/flipdown.css">
+    <script src="js/flipdown.js"></script>
+    
+</head>
+<body>
+
+        <div class="row">
+          <div class="col-2" id="header"><img id="logo" src="images/VCET-logo.png"  class="img-fluid" alt="Responsive Image" width="140" height="110"/>
+          </div>
+          <div class="col-10" id="header"><p style="font-size: 3.5vw; font-family:'Times New Roman', Times, serif"><b>Velammal College of Engineering and Technology<br></b></p>
+          </div>
+          <p style="font-size: 3vw; text-align: center; font-family: 'Times New Roman', Times, serif"><b>(Autonomous)<br> </b></p> 
+            <p  style="font-size: 2vw; text-align: center; font-family: 'Times New Roman', Times, serif"> <b>Madurai  -  625009<br></b></p>
+        </div>
+
+<br><br><br>
+      <center>
+        <h6 class="symp">State Level Technical Symposium</h6><br>
+        <h3 class="sign">
+          <span class="fast-flicker">G</span>EN<span class="flicker">N</span>EXT'22
+        </h3></center>
+        <br><br><br>
+
+        <div class="timer">
+          <div id="flipdown" class="flipdown"></div>
+      </div>
+
+      <script>
+          document.addEventListener('DOMContentLoaded', () => {
+              let timer_ = 		1665599399
+              let flipdown = new FlipDown(timer_)
+                  .start()
+                  .ifEnded(() => {
+                      document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+                  })
+          })
+      </script>
+<br><br><br>
+
+
+      <div class="container">
+        <div class="row ">
+
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white click-col " ><img src="images/it.jpeg">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+          
+                    <h4 class="card-title mt-0 ">INFORMATION TECHNOLOGY</h4>
+          
+                 </div>
+            
+            <!-- Button trigger modal -->
+              <button type="button" class="btn mx-auto" id="button" data-bs-toggle="modal" data-bs-target="#it" >View Events
+              </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="it" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >    
+          <div class="modal-content" >
+          <div class="modal-header" >
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" >
+            <img src="images/it rules.jpeg" id="it" class="img-fluid" alt="Responsive Image" width="1400" height="110"/>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary " role="button" href="https://forms.gle/WJ9PcnVJg7rhQtCW6" >Register</a> 
+          </div>
+          </div>
+          </div>
+          </div>
+          
+          </div>
+          </div>
+          </div>
+
+          
+      
+<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+  <div class="card text-white click-col " ><img src="images/cse.jpg">
+    <div class="card-img-overlay d-flex flex-column">
+      <div class="card-body">
+
+          <h4 class="card-title mt-0 ">COMPUTER SCIENCE AND ENGINEERING</h4>
+
+       </div>
+  
+  <!-- Button trigger modal -->
+    <button type="button" class="btn mx-auto" id="button" data-bs-toggle="modal" data-bs-target="#cse" >View Events
+    </button>
+
+<!-- Modal -->
+<div class="modal fade" id="cse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">    
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <img src="images/cse rules.jpeg" id="cse" class="img-fluid" alt="Responsive Image" width="1400" height="110"/>
+</div>
+<div class="modal-footer">
+  <a class="btn btn-primary" role="button" href="https://forms.gle/7em62AihsnmFAfAw6" >Register</a>  
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+  <div class="card text-white click-col " ><img src="images/ece.jpg">
+    <div class="card-img-overlay d-flex flex-column">
+      <div class="card-body">
+
+          <h4 class="card-title mt-0 ">ELECTRONICS AND COMMUNICATION ENGINEERING</h4>
+
+       </div>
+  
+  <!-- Button trigger modal -->
+    <button type="button" class="btn mx-auto" id="button" data-bs-toggle="modal" data-bs-target="#ece" >View Events
+    </button>
+
+<!-- Modal -->
+<div class="modal fade" id="ece" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">    
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <img src="images/ece rules.jpeg" id="ece" class="img-fluid" alt="Responsive Image" width="1400" height="110"/>
+</div>
+<div class="modal-footer">
+  <a class="btn btn-primary" role="button" href="https://forms.gle/Zjyb2k6kcnJVETSA9" >Register</a>  
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+  <div class="card text-white click-col " ><img src="images/eee.jpg">
+    <div class="card-img-overlay d-flex flex-column">
+      <div class="card-body">
+
+          <h4 class="card-title mt-0 ">ELECTRICAL AND ELECTRONICS ENGINEERING</h4>
+
+       </div>
+  
+  <!-- Button trigger modal -->
+    <button type="button" class="btn mx-auto" id="button" data-bs-toggle="modal" data-bs-target="#eee" >View Events
+    </button>
+
+<!-- Modal -->
+<div class="modal fade" id="eee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">    
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <img src="images/eee rules.jpeg" id="eee" class="img-fluid" alt="Responsive Image" width="1400" height="110"/>
+</div>
+<div class="modal-footer">
+  <a class="btn btn-primary" role="button" href="https://forms.gle/nGXWtgbtExr9DkS8A" >Register</a>  
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+  <div class="card text-white click-col " ><img src="images/civil.jpg">
+    <div class="card-img-overlay d-flex flex-column">
+      <div class="card-body">
+
+          <h4 class="card-title mt-0 ">CIVIL ENGINEERING</h4>
+
+       </div>
+  
+  <!-- Button trigger modal -->
+    <button type="button" class="btn mx-auto" id="button" data-bs-toggle="modal" data-bs-target="#civil" >View Events
+    </button>
+
+<!-- Modal -->
+
+<div class="modal fade" id="civil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">    
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<img src="images/civil rules.png" id="ban" class="img-fluid" alt="Responsive Image" width="1400" height="110"/>
+</div>
+<div class="modal-footer">
+<a class="btn btn-primary" role="button" href="https://forms.gle/yxBeX2xfMRLJFg668" >Register</a>  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+  <div class="card text-white click-col " ><img src="images/mech.jpg">
+    <div class="card-img-overlay d-flex flex-column">
+      <div class="card-body">
+
+          <h4 class="card-title mt-0 ">MECHANICAL ENGINEERING</h4>
+
+       </div>
+  
+  <!-- Button trigger modal -->
+    <button type="button" class="btn mx-auto" id="button" data-bs-toggle="modal" data-bs-target="#mech" >View Events
+    </button>
+
+<!-- Modal -->
+<div class="modal fade" id="mech" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">    
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <img src="images/mech rules.jpeg" id="mech" class="img-fluid" alt="Responsive Image" width="1400" height="110"/>
+</div>
+<div class="modal-footer">
+  <a class="btn btn-primary" role="button" href="https://forms.gle/6gnYG7J5VPU8H7XJ7" >Register</a>  
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>      
+</div>  
+        
+  <br><br><br>
+
+  <footer class="footer-20192">
+    <div class="site-section">
+      <div class="container">
+          <center>        
+            <div class="cta d-block d-md-flex align-items-center px-5">
+              <div>
+                  <h2 class="mb-0">SPONSERS</h2>
+              </div>
+            </div>
+          </center>
+
+        <div class="row">
+          <div class="col-sm">
+            <h3>SPONSER 1</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+          
+          <div class="col-sm">
+            <h3>SPONSER 2</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h3>SPONSER 3</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h3>SPONSER 4</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+          <!--<div class="col-md-3">
+            <h3>COLLEGE LINKS</h3>
+            <ul class="list-unstyled social">
+              <li><a href="#"><span class="icon-facebook"></span></a></li>
+              <li><a href="#"><span class="icon-twitter"></span></a></li>
+              <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              <li><a href="#"><span class="icon-medium"></span></a></li>
+              <li><a href="#"><span class="icon-paper-plane"></span></a></li>
+            </ul>
+          </div>-->
+          
+        </div>
+      </div>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity=
+"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous">
+    </script>
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity=
+"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous">
+    </script>    
+  
+</body>
+</html>
